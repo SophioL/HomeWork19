@@ -36,9 +36,35 @@ body section{
 .scroll-images ::-webkit-scrollbar{
     -webkit-appearance: none;
 }
-
-
 .loader {
+    transition: 0.3s cubic-bezier(1, 0.01, 0.29, 1.01);
+    left: 0;
+    right: 100%;
+    position: absolute; 
+    height: 100vh;
+    z-index: 101;
+  }
+  
+  .loader i {
+    position: fixed;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    top: 50%;
+    
+  }
+  
+
+  .loading:after {
+    background-image: url(../image/galaxy.webp);
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+.r-2 {
     -webkit-animation: spin 2s linear infinite;
     animation: spin 15s linear infinite;
   }
@@ -51,4 +77,5 @@ body section{
 .text {
     text-decoration: none;
     color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }

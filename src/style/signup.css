@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    background-image: url(../image/signup.webp);
+}
+input {
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    border-color: black;
+    border-radius: 3px;
+    box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.btn{
+    width: 150px;
+    height: 30px;
+    background-color:black;
+    border-color: black;
+    border-style:double; 
+    color: black;
+    text-transform: uppercase;
+    text-decoration-style: double;
+    font-family: fantasy;
+    border-radius: 3px; 
+}
+.btn:hover{
+    position: relative;
+    top: -6px;
+    box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+}
